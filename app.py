@@ -1,6 +1,9 @@
 from random import choice
 import json
 
+play = True
+
+wrong_letters_list = []
 
 with open('words.json', encoding='UTF-8') as f:
     wordlist = json.load(f)
@@ -11,20 +14,54 @@ with open('words.json', encoding='UTF-8') as f:
 
     print(word_playing)
 
-    guessed_letters = ["_"] * len(word)
+    guessed_word = ["_"] * len(word)
 
-    print(guessed_letters)
+while play:
 
-    player_guess = ""
-    
-    player_guess_letter = list(player_guess)
+    if guessed_word == word_playing:
+        print("You guessed the word")
+        play_again_input = input("Vill du spela igen? Y/N ").lower()
+        if play_again_input == "y":
+            play = True
+        else:
+            play = False
+            break
 
-    for i, letter in enumerate(word_playing):
 
-        if letter in player_guess_letter:
-            print(f"hittade: {letter}, plats: {i}")
-            guessed_letters[i] = letter
-    
+
+    else:
+        print(f"Fel gissade bokstaver: {wrong_letters_list}")
+        player_guess = input("Gissa en Bokstav: ").lower()
+
+        if player_guess in wrong_letters_list:
+            print("\nDen här bokstaven har du redan gissat fel!")
+            
+        
+        try:
+            word_playing.index(player_guess)
+            for i, letter in enumerate(word_playing):
+
+                if player_guess == letter:
+
+                    guessed_word[i] = player_guess
+                
+
+        except ValueError:
+
+            print("\nDen där bokstaven var FEL!\n")
+            wrong_letters_list.append(player_guess)
+
+
             
 
-print(guessed_letters)
+
+
+
+            
+
+
+    
+
+    print(guessed_word)
+
+
