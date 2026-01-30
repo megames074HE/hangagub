@@ -1,4 +1,12 @@
-["dog",
-    "flygandde",
-    ""
+[
+    "katt", "sol", "bord", "stol", "bil", "hus", "träd", "boll", "skor", "fisk",
+    "vinter", "sommar", "fönster", "frukost", "tidning", "sjukhus", "blomma", "cykel", "skola", "dator",
+    "paraply", "glass", "nycklar", "smörgås", "tallrik", "kudde", "lampa", "matta", "spegel", "skåp",
+    "äventyr", "bibliotek", "universum", "sköldpadda", "helikopter", "trollkarl", "pussel", "orkester", "fotografi", "teleskop",
+    "fallskärm", "ryggsäck", "stjärna", "moln", "regnbåge", "åskväder", "snöflinga", "isbjörn", "pingvin", "giraff",
+    "elefant", "krokodil", "spindel", "fjäril", "myra", "bi", "geting", "humla", "nyckelpiga", "gräshoppa",
+    "skruvmejsel", "hammare", "motorsåg", "gräsklippare", "dammsugare", "mikrovågsugn", "kaffebryggare", "diskmaskin", "tvättmaskin", "torktumlare",
+    "brandbil", "polisbil", "ambulans", "traktor", "lastbil", "tunnelbana", "spårvagn", "flygplan", "rymdfärja", "ubåt",
+    "fotboll", "ishockey", "innebandy", "basket", "handboll", "tennis", "badminton", "simning", "skidåkning", "ridning",
+    "pannkaka", "köttbullar", "spagetti", "pizza", "hamburgare", "korv", "soppa", "sallad", "kyckling", "lax", "dahri"
 ]
