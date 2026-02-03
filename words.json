@@ -1,12 +1,23 @@
-[
-    "katt", "sol", "bord", "stol", "bil", "hus", "träd", "boll", "skor", "fisk",
-    "vinter", "sommar", "fönster", "frukost", "tidning", "sjukhus", "blomma", "cykel", "skola", "dator",
-    "paraply", "glass", "nycklar", "smörgås", "tallrik", "kudde", "lampa", "matta", "spegel", "skåp",
-    "äventyr", "bibliotek", "universum", "sköldpadda", "helikopter", "trollkarl", "pussel", "orkester", "fotografi", "teleskop",
-    "fallskärm", "ryggsäck", "stjärna", "moln", "regnbåge", "åskväder", "snöflinga", "isbjörn", "pingvin", "giraff",
-    "elefant", "krokodil", "spindel", "fjäril", "myra", "bi", "geting", "humla", "nyckelpiga", "gräshoppa",
-    "skruvmejsel", "hammare", "motorsåg", "gräsklippare", "dammsugare", "mikrovågsugn", "kaffebryggare", "diskmaskin", "tvättmaskin", "torktumlare",
-    "brandbil", "polisbil", "ambulans", "traktor", "lastbil", "tunnelbana", "spårvagn", "flygplan", "rymdfärja", "ubåt",
-    "fotboll", "ishockey", "innebandy", "basket", "handboll", "tennis", "badminton", "simning", "skidåkning", "ridning",
-    "pannkaka", "köttbullar", "spagetti", "pizza", "hamburgare", "korv", "soppa", "sallad", "kyckling", "lax", "dahri"
-]
+{
+  "1": [
+    "hund", "banan", "sol", "bord", "skola", "bil", "glad", "hus", "äpple", "vatten",
+    "katt", "bok", "stol", "glass", "skog", "blomma", "fisk", "mamma", "pappa", "boll",
+    "sko", "hand", "öga", "mun", "natt", "dag", "mat", "vän", "snö", "regn",
+    "tåg", "buss", "dörr", "säng", "träd", "fågel", "gräs", "väg", "stad", "hav",
+    "gul", "blå", "röd", "stor", "liten", "varm", "kall", "arg", "söt", "snäll", "dahri"
+  ],
+  "2": [
+    "paraply", "fjäril", "kylskåp", "morgonrock", "bibliotek", "ryggsäck", "stjärna", "orkester", "äventyr", "tidning",
+    "cykelhjälm", "plånbok", "sommarlov", "restaurang", "frukost", "skruvmejsel", "halsband", "tandborste", "landskap", "människa",
+    "ficklampa", "universitet", "semester", "fotografi", "upplevelse", "trollkarl", "hemlighet", "trafikljus", "skrivmaskin", "fyrverkeri",
+    "föreställning", "besvikelse", "samhälle", "utmaning", "kunskap", "tålamod", "skillnad", "möjlighet", "förklaring", "betydelse",
+    "anledning", "annorlunda", "använda", "jämföra", "handduk", "original", "recension", "regnjacka", "rekommendera", "mankemang"
+  ],
+  "3": [
+    "vederkvickelse", "sisyfosarbete", "ymnighetshorn", "oumbärlig", "huvudbry", "förnimma", "eskapism", "godtycklig", "mångsysslare", "pretentiös",
+    "sinnelag", "kverulant", "anekdot", "oförvitlig", "paradoxalt", "kontinuitet", "ambivalens", "rättmätig", "fundamental", "instans",
+    "hegemoni", "impertinent", "verserad", "kompilera", "renegat", "arbiträr", "flegmatisk", "panegyrik", "sybarit", "blamage",
+    "dikotomi", "epigon", "animositet", "kalamitet", "sangvinisk", "palaver", "amsaga", "vinnlägga", "bevekelsegrund", "skrinlägga",
+    "dementi", "reprimand", "triptyk", "nota bene", "kvintessens", "knappologi", "stipulera", "dristig", "defaitism", "janusansikte"
+  ]
+}
