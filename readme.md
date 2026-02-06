@@ -23,3 +23,4 @@ Man kan välja att avsluta spelet om man har vunnit eller förlorat. Highscore s
 
 # Flödesschema
 
+![Här borde var ett flödesschema. Kanske bilden gick sönder](https://raw.githubusercontent.com/megames074HE/hangagub/refs/heads/main/hangagubben.drawio.png)
